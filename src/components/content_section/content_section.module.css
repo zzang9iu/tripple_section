@@ -1,0 +1,25 @@
+.content_section{
+    background-image: url(../../img/triple2x.png);
+    position: absolute;
+    top: 100px;
+    width: 400px;
+    background-size: 400px 338px;
+    padding-top: 280px;
+    font-size: 15px;
+    height: 55px;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: rgba(58, 58, 58, 0.7);
+    animation: slide 3s;
+    }
+@keyframes slide{
+  from{
+    top: 245px;
+    opacity: 0;
+  }
+  to{
+   top: 100px;
+   opacity: 1;
+  }
+}

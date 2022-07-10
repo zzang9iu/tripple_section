@@ -1,0 +1,45 @@
+.award_section{
+    width: 50%;
+    height: 54px;
+    padding: 5px 0px 5px 624px;
+    font-size: 14px;
+    display: inline-block;
+    top: 305px;
+    position: relative;
+    animation: slide 3s forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+.award_section_p{
+    background-size: 54px 54px;
+    padding: 5px 0px 5px 62px;
+    line-height: 22px;
+    margin-right: 39px;
+    width: 216px; 
+    background-repeat: no-repeat;
+    color: rgba(58, 58, 58, 0.8);
+    font-weight: bold;
+    float: left;
+    width: 30%;
+}
+.award_section_p_goggle{
+    background-image: url(../../img/play-store2x.png);
+    
+}
+.award_section_p_apple{
+    background-image: url(../../img/badge-apple4x.png);
+}
+@keyframes slide{
+  from{
+    top: 350px;
+    opacity: 0;
+  }
+  to{
+   top: 305px; 
+   opacity: 1 ;
+  }
+}
+
+
+
+  

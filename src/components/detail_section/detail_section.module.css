@@ -1,0 +1,32 @@
+.detail_section{
+    height: 169px;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 300px;
+    margin: 50px 0px 0px 623px;
+    position: absolute;
+    animation: slide 3s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+    height: 17px;
+    }
+.detail_section_p {
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+@keyframes slide{
+  from{
+    top: 35px;
+    opacity: 0;
+  }
+  to{
+   top: 0px; 
+   opacity: 1 ;
+  }
+}
+
+
+
+  
